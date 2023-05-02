@@ -1,0 +1,72 @@
+.App {
+  /* display: flex; */
+  justify-content: center;
+}
+
+label {
+  font-weight: 0;
+  display: flex;
+  margin-bottom: 5px;
+  color: rebeccapurple;
+  font-family: ui-rounded;
+}
+
+input + label {
+  font-weight: bold;
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+textarea,
+select {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* margin-bottom: 20px; */
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}
+table,th,tr {
+  border: 0px solid black;
+  border-collapse: collapse;
+}
+
+tr:hover {background-color: #D6EEEE;}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th, td {
+  padding: 10px;
+}
+
+
+#input{
+  border-radius: 25px;
+}
+.checkbox{
+  color: rebeccapurple;
+  font-family: ui-rounded;
+  font-weight: 200;
+}
+.banner{
+  padding-bottom: 300px;
+  padding-top: 100px;
+}
